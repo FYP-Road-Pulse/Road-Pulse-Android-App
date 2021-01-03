@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "425367247268",
+    "firebase_url": "https://road-pulse-a132e.firebaseio.com",
+    "project_id": "road-pulse-a132e",
+    "storage_bucket": "road-pulse-a132e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425367247268:android:5e64b1611d6ad5f51f0931",
+        "android_client_info": {
+          "package_name": "com.example.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425367247268-qnvaqj48secci1pluotvmofbl9jhi5q5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app1",
+            "certificate_hash": "90cb5e3d2ff5b0d80ae1d035fe98f1baebd44d4b"
+          }
+        },
+        {
+          "client_id": "425367247268-hvvvrcvsllfna2cvi2096votjlp3v7sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv0UNHQ4YczhXRrLdBPAXFq3-eJmfwDlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425367247268-hvvvrcvsllfna2cvi2096votjlp3v7sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

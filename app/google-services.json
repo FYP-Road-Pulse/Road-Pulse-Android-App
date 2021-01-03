@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "829954679478",
+    "firebase_url": "https://flaskapp-990a1.firebaseio.com",
+    "project_id": "flaskapp-990a1",
+    "storage_bucket": "flaskapp-990a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829954679478:android:ce04c0462a1b4031977c17",
+        "android_client_info": {
+          "package_name": "com.example.app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829954679478-3noqdp5monoj5ep720ne26jc9otb10k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe2ERodKyzahzZWWI_sglwvcFNYK-ydw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829954679478-3noqdp5monoj5ep720ne26jc9otb10k5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

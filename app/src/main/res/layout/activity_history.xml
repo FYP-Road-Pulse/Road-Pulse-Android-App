@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="1">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="332dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                android:background="@drawable/back"
+                app:cardElevation="8dp">
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/background">
+
+
+                  <ImageView
+                      android:id="@+id/image1"
+                      android:layout_width="350dp"
+                      android:layout_height="214dp"
+                      android:layout_alignParentTop="true"
+                      android:layout_alignParentEnd="true"
+                      android:layout_alignParentBottom="true"
+                      android:layout_gravity="center"
+                      android:layout_marginBottom="60dp"
+                      android:layout_marginTop="90dp" />
+
+                  <TextView
+                      android:id="@+id/nametv1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+
+                      android:textAlignment="center"
+                      android:textColor="@android:color/white"
+                      android:textSize="22dp"
+                      android:layout_marginTop="34dp"
+                      android:textStyle="bold" />
+
+                  <TextView
+                      android:id="@+id/frame1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textStyle="italic"
+                      android:textAlignment="center"
+                      android:textColor="@android:color/white"
+                      android:layout_marginLeft="140dp"
+                      android:layout_marginTop="60dp"
+                      />
+
+                  <TextView
+                      android:id="@+id/fortrack1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="140dp"
+                      android:layout_marginTop="300dp"
+                      android:textAlignment="center"
+                      android:textColor="@android:color/white"
+                      android:textStyle="italic" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+
+              </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/nametv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:layout_marginTop="34dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/frame2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/nametv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:layout_marginTop="34dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/frame3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/nametv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/frame4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/nametv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/frame5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+
+                    <ImageView
+                        android:id="@+id/image6"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/nametv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/frame6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+                    <ImageView
+                        android:id="@+id/image7"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/nametv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/frame7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+
+                    <ImageView
+                        android:id="@+id/image8"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/nametv8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/frame8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="351dp"
+                android:layout_height="332dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background">
+
+
+
+                    <ImageView
+                        android:id="@+id/image9"
+                        android:layout_width="350dp"
+                        android:layout_height="213dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="60dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/nametv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/frame9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="60dp"
+                        />
+
+                <TextView
+                    android:id="@+id/fortrack9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:onClick="btn_gototrack" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

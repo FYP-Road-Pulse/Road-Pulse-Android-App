@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue2"
+
+    >
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:paddingRight="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="@+id/backb"
+        app:layout_constraintEnd_toEndOf="@+id/backb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/backb"
+        app:layout_constraintTop_toTopOf="@+id/backb"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/backv"
+        android:layout_width="59dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/dbiv2"
+        android:layout_centerHorizontal="true"
+        android:text="BACK"
+        android:paddingLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backb"
+        app:layout_constraintEnd_toEndOf="@+id/backb"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/backb"
+        app:layout_constraintTop_toTopOf="@+id/backb"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/backb"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:onClick="btn_backdb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="OnClick" />
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="397dp"
+        android:layout_height="210dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <ImageView
+        android:id="@+id/dbiv2"
+        android:layout_width="120dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/location"
+        app:layout_constraintBottom_toBottomOf="@+id/dbhome2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dbhome2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dbiv2"
+        android:layout_centerHorizontal="true"
+        android:text="TRACK LOCATION"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/dbhome2"
+        app:layout_constraintEnd_toEndOf="@+id/dbhome2"
+        app:layout_constraintStart_toStartOf="@+id/dbhome2"
+        app:layout_constraintTop_toBottomOf="@+id/dbiv2" />
+
+
+    <Button
+        android:id="@+id/dbhome2"
+        android:layout_width="201dp"
+        android:layout_height="113dp"
+        android:background="@android:color/transparent"
+        android:onClick="btn_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:layout_constraintVertical_bias="0.439"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dectected Frame Info/Location"
+        android:textColor="#FF77F4E2"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <TextView
+        android:id="@+id/nametvheading"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColor="#77F4E2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716" />
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/typetvheading"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FF77F4E2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <TextView
+        android:id="@+id/typetv"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/timetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/dbhome2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        android:onClick="btn_moreframes"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MORE FRAMES"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="31dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
